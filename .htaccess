@@ -1,0 +1,31 @@
+Options -Indexes
+
+# Redirect semua HTTP ke HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://kel7.online/$1 [L,R=301]
+
+# Redirect akses via IP ke domain
+RewriteCond %{HTTP_HOST} ^103\.139\.192\.114$
+RewriteRule ^(.*)$ https://kel7.online/$1 [L,R=301]
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+
+RewriteEngine On
+
+# Akses file tanpa .php (tanpa redirect, langsung serve)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# === HEADER KEAMANAN ===
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
+Header always set Cross-Origin-Opener-Policy "same-origin"
+Header always set Cross-Origin-Embedder-Policy "require-corp"
+</IfModule>

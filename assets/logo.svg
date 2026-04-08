@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <defs>
+    <linearGradient id="stalk-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="grain-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </linearGradient>
+    <linearGradient id="leaf-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2914"/>
+      <stop offset="100%" stop-color="#0a1a0e"/>
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer glow rings -->
+  <circle cx="140" cy="140" r="136" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.25"/>
+  <circle cx="140" cy="140" r="130" fill="none" stroke="#4CAF50" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Main disc -->
+  <circle cx="140" cy="140" r="124" fill="url(#bg-grad)"/>
+
+  <!-- Inner accent ring -->
+  <circle cx="140" cy="140" r="124" fill="none" stroke="url(#ring-grad)" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- LEFT STALK -->
+  <line x1="116" y1="196" x2="116" y2="90" stroke="url(#stalk-grad)" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="106" cy="101" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(-22,106,101)"/>
+  <ellipse cx="101" cy="117" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(-26,101,117)"/>
+  <ellipse cx="99"  cy="134" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(-28,99,134)"/>
+  <ellipse cx="101" cy="151" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(-23,101,151)"/>
+  <ellipse cx="106" cy="167" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(-16,106,167)"/>
+
+  <!-- RIGHT STALK -->
+  <line x1="164" y1="196" x2="164" y2="90" stroke="url(#stalk-grad)" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="174" cy="101" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(22,174,101)"/>
+  <ellipse cx="179" cy="117" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(26,179,117)"/>
+  <ellipse cx="181" cy="134" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(28,181,134)"/>
+  <ellipse cx="179" cy="151" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(23,179,151)"/>
+  <ellipse cx="174" cy="167" rx="9.5" ry="5.5" fill="url(#grain-grad)" transform="rotate(16,174,167)"/>
+
+  <!-- CENTER STALK (tallest) -->
+  <line x1="140" y1="196" x2="140" y2="80" stroke="url(#stalk-grad)" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="140" cy="92"  rx="10" ry="6" fill="url(#grain-grad)"/>
+  <ellipse cx="140" cy="109" rx="10" ry="6" fill="url(#grain-grad)"/>
+  <ellipse cx="140" cy="126" rx="10" ry="6" fill="url(#grain-grad)"/>
+  <ellipse cx="140" cy="143" rx="10" ry="6" fill="url(#grain-grad)"/>
+  <ellipse cx="140" cy="160" rx="10" ry="6" fill="url(#grain-grad)"/>
+  <ellipse cx="140" cy="177" rx="10" ry="6" fill="url(#grain-grad)"/>
+
+  <!-- LEFT LEAF -->
+  <path d="M 130 162 Q 90 140 84 112 Q 98 122 130 144 Z" fill="url(#leaf-grad)" opacity="0.92"/>
+
+  <!-- RIGHT LEAF -->
+  <path d="M 150 152 Q 192 130 198 100 Q 184 112 150 134 Z" fill="url(#leaf-grad)" opacity="0.92"/>
+
+  <!-- SIGNAL WAVES -->
+  <path d="M 96  196 Q 104 180 116 196" fill="none" stroke="#66BB6A" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 112 196 Q 126 170 140 196" fill="none" stroke="#81C784" stroke-width="3"   stroke-linecap="round" opacity="0.9"/>
+  <path d="M 140 196 Q 154 170 168 196" fill="none" stroke="#81C784" stroke-width="3"   stroke-linecap="round" opacity="0.9"/>
+  <path d="M 164 196 Q 176 180 184 196" fill="none" stroke="#66BB6A" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+</svg>

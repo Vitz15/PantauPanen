@@ -1,0 +1,260 @@
+[2026-03-21 07:22:00] [LOGIN_SUCCESS] user_id=1 ip=::1 info=username=elsherawyn
+[2026-03-21 07:22:02] [LOGOUT] user_id=1 ip=::1 info=username=elsherawyn
+[2026-03-21 07:22:05] [LOGIN_SUCCESS] user_id=1 ip=::1 info=username=elsherawyn
+[2026-03-21 16:24:07] [LOGIN_SUCCESS] user_id=5 ip=::1 info=username=Jonathan
+[2026-03-21 16:25:12] [LOGOUT] user_id=5 ip=::1 info=username=Jonathan
+[2026-03-21 16:25:52] [LOGIN_SUCCESS] user_id=6 ip=::1 info=username=Anto
+[2026-03-21 16:27:27] [LOGOUT] user_id=6 ip=::1 info=username=Anto
+[2026-03-23 06:37:30] [LOGOUT] user_id=0 ip=::1 info=username=-
+[2026-03-23 06:37:50] [LOGIN_FAILED] user_id=0 ip=::1 info=username=Jonathan
+[2026-03-23 06:37:59] [LOGIN_SUCCESS] user_id=5 ip=::1 info=username=Jonathan
+[2026-03-23 06:38:07] [DELETE_PANEN] user_id=5 ip=::1 info=id=15
+[2026-03-23 06:38:37] [UPDATE_PANEN] user_id=5 ip=::1 info=id=17 komoditas=Kelapa
+[2026-03-23 06:39:14] [UPDATE_PANEN] user_id=5 ip=::1 info=id=17 komoditas=Kelapa
+[2026-03-23 06:39:38] [TAMBAH_PANEN] user_id=5 ip=::1 info=komoditas=Beras7 jumlah=700 petani=Karwo
+[2026-03-23 06:40:00] [DELETE_PANEN] user_id=5 ip=::1 info=id=20
+[2026-03-23 06:40:21] [LOGOUT] user_id=5 ip=::1 info=username=Jonathan
+[2026-03-23 06:40:34] [LOGIN_SUCCESS] user_id=5 ip=::1 info=username=Jonathan
+[2026-03-23 06:40:43] [LOGOUT] user_id=5 ip=::1 info=username=Jonathan
+[2026-03-23 06:44:59] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:45:08] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:45:16] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:48:09] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=fdfd
+[2026-03-23 06:48:41] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:52:07] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:56:31] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:56:53] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 06:57:09] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:00:30] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:01:27] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:02:11] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:10:54] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:13:43] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:22:12] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:22:12] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:24:56] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:25:14] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=Yantoyanto123
+[2026-03-23 07:25:24] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:25:45] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:27:01] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:27:16] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:27:40] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:29:26] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:29:56] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:35:08] [TAMBAH_PANEN] user_id=1 ip=103.144.132.183 info=komoditas=Padi jumlah=200 petani=Ando
+[2026-03-23 07:35:44] [TAMBAH_PANEN] user_id=1 ip=103.144.132.183 info=komoditas=Kelapa jumlah=500 petani=Rusdi
+[2026-03-23 07:36:31] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:39:42] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:39:56] [UPDATE_PANEN] user_id=1 ip=103.144.132.183 info=id=2 komoditas=Padi
+[2026-03-23 07:42:51] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:42:55] [LOGOUT] user_id=0 ip=103.144.132.183 info=username=-
+[2026-03-23 07:46:11] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:46:24] [DELETE_PANEN] user_id=1 ip=103.144.132.183 info=id=1
+[2026-03-23 07:58:57] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:59:12] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 07:59:35] [TAMBAH_PANEN] user_id=1 ip=103.144.132.183 info=komoditas=Padi jumlah=200 petani=Akama
+[2026-03-23 08:03:46] [TAMBAH_PANEN] user_id=1 ip=103.144.132.183 info=komoditas=Beras jumlah=100 petani=Yanti
+[2026-03-23 08:05:19] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:05:34] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:05:41] [DELETE_PANEN] user_id=1 ip=103.144.132.183 info=id=5
+[2026-03-23 08:05:52] [TAMBAH_PANEN] user_id=1 ip=103.144.132.183 info=komoditas=Kelapa jumlah=100 petani=Jarwo
+[2026-03-23 08:07:08] [DELETE_PANEN] user_id=1 ip=103.144.132.183 info=id=6
+[2026-03-23 08:07:13] [DELETE_PANEN] user_id=1 ip=103.144.132.183 info=id=4
+[2026-03-23 08:07:33] [UPDATE_PANEN] user_id=1 ip=103.144.132.183 info=id=2 komoditas=Padi
+[2026-03-23 08:08:11] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:10:46] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:10:57] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:12:06] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:21:04] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:21:12] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:21:20] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:23:21] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:23:32] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:24:00] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:24:15] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:26:10] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:30:57] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:31:11] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:31:25] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:31:32] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 08:40:18] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:02:12] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:11:04] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:11:11] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:11:14] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:20:03] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:20:08] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:33:22] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 09:33:26] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:02:16] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:02:43] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:06:29] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:44:44] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:44:58] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:47:24] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 10:47:36] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 11:17:24] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-23 11:17:41] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 06:18:09] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 06:18:13] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 06:18:41] [REGISTER] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:18:49] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:18:57] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:19:00] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:25:49] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:26:20] [TAMBAH_PANEN] user_id=2 ip=103.144.132.183 info=komoditas=Padi jumlah=8000 petani=Pablo
+[2026-03-24 06:26:57] [UPDATE_PANEN] user_id=2 ip=103.144.132.183 info=id=7 komoditas=Padi
+[2026-03-24 06:28:49] [DELETE_PANEN] user_id=2 ip=103.144.132.183 info=id=7
+[2026-03-24 06:28:50] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:30:39] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:31:03] [TAMBAH_PANEN] user_id=2 ip=103.144.132.183 info=komoditas=Kelapa jumlah=2000 petani=RIyan
+[2026-03-24 06:31:08] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:31:49] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:40:27] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:40:37] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:40:49] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:56:33] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:56:37] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:58:04] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 06:58:21] [DELETE_PANEN] user_id=1 ip=103.144.132.183 info=id=2
+[2026-03-24 06:58:30] [UPDATE_PANEN] user_id=1 ip=103.144.132.183 info=id=3 komoditas=Kelapa
+[2026-03-24 06:58:35] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 06:58:50] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 06:59:00] [TAMBAH_PANEN] user_id=2 ip=103.144.132.183 info=komoditas=Padi jumlah=500 petani=Pablo
+[2026-03-24 06:59:04] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 07:07:21] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 07:08:27] [UPDATE_PANEN] user_id=2 ip=103.144.132.183 info=id=8 komoditas=Kelapa
+[2026-03-24 07:08:40] [DELETE_PANEN] user_id=2 ip=103.144.132.183 info=id=8
+[2026-03-24 07:08:48] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 07:50:46] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 07:51:09] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 08:14:31] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:14:48] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:15:09] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:32:58] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:37:09] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:42:45] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:46:10] [DELETE_PANEN] user_id=2 ip=103.144.132.183 info=id=9
+[2026-03-24 08:46:37] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 08:46:48] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 08:46:59] [DELETE_PANEN] user_id=1 ip=103.144.132.183 info=id=3
+[2026-03-24 08:53:47] [TAMBAH_PANEN] user_id=1 ip=103.144.132.183 info=komoditas=Padi jumlah=600 petani=Pablo
+[2026-03-24 09:14:49] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:14:56] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:15:32] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:15:59] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:19:40] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:19:48] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:19:57] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:20:05] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:26:16] [LOGIN_FAILED] user_id=0 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 09:26:31] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:26:38] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 09:55:28] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 09:56:16] [TAMBAH_PANEN] user_id=2 ip=103.144.132.183 info=komoditas=Kelapa jumlah=500 petani=Pablo
+[2026-03-24 10:05:51] [DELETE_PANEN] user_id=2 ip=103.144.132.183 info=id=11
+[2026-03-24 10:06:08] [TAMBAH_PANEN] user_id=2 ip=103.144.132.183 info=komoditas=Beras jumlah=700 petani=Yanto
+[2026-03-24 10:06:26] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:06:43] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:07:14] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:19:06] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:22:29] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:22:39] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:25:36] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 10:26:11] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 10:32:28] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 10:32:49] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 10:34:00] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 10:36:23] [LOGIN_SUCCESS] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 10:36:41] [LOGOUT] user_id=1 ip=103.144.132.183 info=username=Yanto
+[2026-03-24 13:51:42] [LOGIN_FAILED] user_id=0 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 13:52:06] [REGISTER] user_id=3 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 13:52:10] [LOGIN_SUCCESS] user_id=3 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 13:57:33] [LOGOUT] user_id=3 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 13:58:08] [LOGIN_SUCCESS] user_id=3 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 14:24:33] [LOGOUT] user_id=3 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 14:26:54] [LOGIN_SUCCESS] user_id=3 ip=36.85.222.52 info=username=elsherawyn
+[2026-03-24 16:13:05] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-24 16:15:27] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-25 13:07:53] [LOGIN_SUCCESS] user_id=1 ip=36.85.216.137 info=username=Yanto
+[2026-03-25 13:08:21] [LOGIN_SUCCESS] user_id=1 ip=36.85.216.137 info=username=Yanto
+[2026-03-25 13:08:43] [LOGOUT] user_id=1 ip=36.85.216.137 info=username=Yanto
+[2026-03-25 13:09:08] [LOGIN_SUCCESS] user_id=1 ip=36.85.216.137 info=username=Yanto
+[2026-03-25 13:09:48] [TAMBAH_PANEN] user_id=1 ip=36.85.216.137 info=komoditas=sawit jumlah=10 petani=akmal
+[2026-03-25 13:10:04] [LOGOUT] user_id=1 ip=36.85.216.137 info=username=Yanto
+[2026-03-26 01:06:48] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-26 01:06:57] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-26 01:14:04] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-26 01:14:07] [LOGOUT] user_id=2 ip=103.144.132.183 info=username=Jonathan
+[2026-03-26 01:15:50] [REGISTER] user_id=4 ip=103.144.132.183 info=username=Ando
+[2026-03-26 01:16:06] [LOGIN_SUCCESS] user_id=4 ip=103.144.132.183 info=username=Ando
+[2026-03-26 01:16:25] [TAMBAH_PANEN] user_id=4 ip=103.144.132.183 info=komoditas=Kelapa jumlah=500 petani=Raja
+[2026-03-26 01:16:36] [UPDATE_PANEN] user_id=4 ip=103.144.132.183 info=id=14 komoditas=Padi
+[2026-03-26 01:16:46] [DELETE_PANEN] user_id=4 ip=103.144.132.183 info=id=14
+[2026-03-26 01:17:03] [LOGOUT] user_id=4 ip=103.144.132.183 info=username=Ando
+[2026-03-26 05:25:12] [LOGIN_SUCCESS] user_id=2 ip=36.75.223.127 info=username=Jonathan
+[2026-03-26 05:33:17] [LOGOUT] user_id=2 ip=36.75.223.127 info=username=Jonathan
+[2026-03-26 05:57:45] [LOGIN_SUCCESS] user_id=2 ip=36.75.189.104 info=username=Jonathan
+[2026-03-26 05:58:10] [LOGOUT] user_id=2 ip=36.75.189.104 info=username=Jonathan
+[2026-03-27 13:16:47] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 13:34:59] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 13:35:48] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 13:46:17] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 13:54:35] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 13:55:05] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 13:56:39] [REGISTER] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 13:57:19] [LOGIN_SUCCESS] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 13:57:45] [LOGOUT] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 14:09:20] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:09:32] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:12:54] [LOGIN_SUCCESS] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 14:13:22] [TAMBAH_PANEN] user_id=5 ip=103.144.132.137 info=komoditas=Padi jumlah=200 petani=Pandu
+[2026-03-27 14:13:38] [DELETE_PANEN] user_id=5 ip=103.144.132.137 info=id=15
+[2026-03-27 14:14:07] [LOGOUT] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 14:19:38] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:20:06] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:20:35] [LOGIN_SUCCESS] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 14:24:58] [LOGOUT] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 14:25:13] [LOGIN_FAILED] user_id=0 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:38:29] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:38:38] [TAMBAH_PANEN] user_id=2 ip=103.144.132.137 info=komoditas=Kelapa jumlah=10 petani=<script>alert('XSS')</script>
+[2026-03-27 14:39:49] [DELETE_PANEN] user_id=2 ip=103.144.132.137 info=id=16
+[2026-03-27 14:39:51] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:42:03] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 14:42:08] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:03:56] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:04:01] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:07:16] [LOGIN_FAILED] user_id=0 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:10:39] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:10:58] [TAMBAH_PANEN] user_id=2 ip=103.144.132.137 info=komoditas=Padi jumlah=1 petani=<script>alert(1)</script>
+[2026-03-27 15:12:29] [DELETE_PANEN] user_id=2 ip=103.144.132.137 info=id=17
+[2026-03-27 15:16:07] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:34:11] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:34:30] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:37:04] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:39:05] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:44:17] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:46:10] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 15:54:43] [LOGIN_SUCCESS] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 16:00:31] [LOGOUT] user_id=5 ip=103.144.132.137 info=username=Akmal
+[2026-03-27 16:13:28] [LOGIN_FAILED] user_id=0 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 18:04:09] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 18:04:11] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 18:06:51] [LOGIN_SUCCESS] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-27 18:08:30] [LOGOUT] user_id=2 ip=103.144.132.137 info=username=Jonathan
+[2026-03-28 07:28:37] [REGISTER] user_id=6 ip=103.144.132.137 info=username=Jamal
+[2026-03-28 07:28:54] [LOGIN_SUCCESS] user_id=6 ip=103.144.132.137 info=username=Jamal
+[2026-03-28 07:29:13] [TAMBAH_PANEN] user_id=6 ip=103.144.132.137 info=komoditas=Kelapa jumlah=600 petani=Dawning
+[2026-03-28 07:29:53] [UPDATE_PANEN] user_id=6 ip=103.144.132.137 info=id=18 komoditas=Padi
+[2026-03-28 07:31:34] [UPDATE_PANEN] user_id=6 ip=114.10.128.134 info=id=18 komoditas=Padi
+[2026-03-28 07:31:58] [LOGOUT] user_id=6 ip=114.10.128.134 info=username=Jamal
+[2026-03-28 07:32:22] [LOGIN_SUCCESS] user_id=6 ip=114.10.128.134 info=username=Jamal
+[2026-03-28 07:32:27] [DELETE_PANEN] user_id=6 ip=114.10.128.134 info=id=18
+[2026-03-28 07:32:31] [LOGOUT] user_id=6 ip=114.10.128.134 info=username=Jamal
+[2026-03-28 16:21:05] [REGISTER] user_id=7 ip=103.144.132.226 info=username=Rando
+[2026-03-28 16:21:59] [LOGIN_SUCCESS] user_id=7 ip=103.144.132.226 info=username=Rando
+[2026-03-28 16:25:03] [TAMBAH_PANEN] user_id=7 ip=103.144.132.226 info=komoditas=Kelapa jumlah=200 petani=Steve
+[2026-03-28 16:26:25] [UPDATE_PANEN] user_id=7 ip=103.144.132.226 info=id=19 komoditas=Kelapa
+[2026-03-28 16:27:58] [TAMBAH_PANEN] user_id=7 ip=103.144.132.226 info=komoditas=Padi jumlah=402 petani=Akmal
+[2026-03-28 16:32:27] [DELETE_PANEN] user_id=7 ip=103.144.132.226 info=id=19
+[2026-03-28 16:33:47] [LOGOUT] user_id=7 ip=103.144.132.226 info=username=Rando
