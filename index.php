@@ -56,7 +56,7 @@ $total_petani = $q_petani['total'];
       <span class="land-title-accent">Hasil Panen</span>
     </h1>
 
-    <p class="land-subtitle-region">Sulawesi Utara</p>
+    <p class="land-subtitle-region">Sulawesi Tengah</p>
 
     <p class="land-desc">
       Catat, pantau, dan analisis data hasil pertanian Anda secara real-time. Satu platform untuk semua kebutuhan monitoring komoditas.
