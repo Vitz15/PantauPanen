@@ -53,7 +53,7 @@ $total_petani = $q_petani['total'];
 
     <h1 class="land-title">
       Monitor<br>
-      <span class="land-title-accent">Hasil kuda</span>
+      <span class="land-title-accent">Hasil Panen</span>
     </h1>
 
     <p class="land-subtitle-region">Sulawesi Utara</p>
