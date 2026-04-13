@@ -38,7 +38,7 @@ $total_petani = $q_petani['total'];
   <nav class="land-nav">
     <div class="land-logo">
       <img src="assets/logo.svg" width="50" height="50" class="logo-img">
-      <span class="land-logo-text">PantauPanen</span>
+      <span class="land-logo-text">Pantau Ikan Skill</span>
     </div>
     <a href="login" class="land-nav-btn">Masuk &#x2192;</a>
   </nav>
