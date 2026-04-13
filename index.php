@@ -38,7 +38,7 @@ $total_petani = $q_petani['total'];
   <nav class="land-nav">
     <div class="land-logo">
       <img src="assets/logo.svg" width="50" height="50" class="logo-img">
-      <span class="land-logo-text">Pantau Ikan Skill</span>
+      <span class="land-logo-text">PantauPanen</span>
     </div>
     <a href="login" class="land-nav-btn">Masuk &#x2192;</a>
   </nav>
@@ -48,7 +48,7 @@ $total_petani = $q_petani['total'];
 
     <div class="land-badge">
       <span class="land-badge-dot"></span>
-      Platform Monitoring Hasil Panen Terpercaya
+      Platform Pertanian Digital
     </div>
 
     <h1 class="land-title">
