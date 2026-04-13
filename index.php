@@ -48,7 +48,7 @@ $total_petani = $q_petani['total'];
 
     <div class="land-badge">
       <span class="land-badge-dot"></span>
-      Platform Pertanian Digital
+      Platform Monitoring Hasil Panen Terpercaya
     </div>
 
     <h1 class="land-title">
