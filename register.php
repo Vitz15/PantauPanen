@@ -98,7 +98,6 @@ include 'config/csrf.php';
 
 </div>
 
-<!-- register.js harus di load SEBELUM auth-canvas.js agar AUTH_ORBS tersedia -->
 <script src="assets/js/register.js"></script>
 <script src="assets/js/auth-canvas.js"></script>
 

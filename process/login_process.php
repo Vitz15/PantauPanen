@@ -13,7 +13,6 @@ include '../config/koneksi.php';
 include '../config/csrf.php';
 include '../config/logger.php';
 
-/* E2: Verifikasi CSRF token */
 csrf_verify('../login.php');
 
 header("X-Content-Type-Options: nosniff");
@@ -49,7 +48,6 @@ if($result->num_rows === 1){
         $_SESSION['ip']            = $_SERVER['REMOTE_ADDR'];
         $_SESSION['ua']            = $_SERVER['HTTP_USER_AGENT'];
 
-        // G1: Catat login berhasil
         write_log($conn, 'LOGIN_SUCCESS', $row['id'], "username={$user}");
 
         header("Location: ../dashboard");
@@ -57,7 +55,6 @@ if($result->num_rows === 1){
     }
 }
 
-// G2: Catat login gagal
 write_log($conn, 'LOGIN_FAILED', 0, "username={$user}");
 
 header("Location: ../login?error=1");

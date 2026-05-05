@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 (function(orbConfig) {
   const canvas = document.getElementById('bgCanvas');
-  if (!canvas) return; // ?? cegah error jika canvas belum ada
+  if (!canvas) return; 
 
   const ctx = canvas.getContext('2d');
   let W, H, particles = [];

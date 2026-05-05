@@ -17,7 +17,6 @@ $username = $_SESSION['username'] ?? null;
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- CSS EKSTERNAL -->
 <link rel="stylesheet" href="/assets/css/error.css">
 </head>
 <body>

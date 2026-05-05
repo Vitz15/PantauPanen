@@ -4,7 +4,6 @@ window.AUTH_ORBS = [
   { x: 0.85, y: 0.7, r: 0.3,  color: 'rgba(46,125,50,0.25)' },
 ];
 
-// tetap pertahankan function lama
 function togglePassword(id, icon) {
   const input = document.getElementById(id);
   if (input.type === 'password') {
@@ -16,7 +15,6 @@ function togglePassword(id, icon) {
   }
 }
 
-// TAMBAHAN (CSP-safe)
 document.addEventListener('DOMContentLoaded', function () {
   const eye = document.querySelector('.auth-eye');
   const input = document.getElementById('password');

@@ -13,10 +13,6 @@ header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: strict-origin-when-cross-origin");
 header("Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com;");
 
-// ================================================================
-// C3 FIX: Semua query menggunakan prepared statement
-// ================================================================
-
 // Chart data
 $stmt_chart = $conn->prepare("SELECT komoditas, SUM(jumlah) as total FROM panen WHERE user_id=? GROUP BY komoditas");
 $stmt_chart->bind_param("i", $user_id);
@@ -65,7 +61,6 @@ $stmt_tabel->execute();
 $res = $stmt_tabel->get_result();
 $stmt_tabel->close();
 
-// ================================================================
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -278,7 +273,6 @@ $stmt_tabel->close();
     </div>
 
     <!-- CHART -->
-    <!-- Data chart di-pass via data attribute, bukan inline script -->
     <div class="db-chart-box">
       <div class="db-chart-head"><i class="fa-solid fa-chart-bar icon-chart"></i> Grafik Total Panen per Komoditas</div>
       <canvas id="chart"

@@ -5,7 +5,6 @@ include '../config/koneksi.php';
 include '../config/csrf.php';
 include '../config/logger.php';
 
-/* E2: Verifikasi CSRF */
 csrf_verify('../register.php');
 
 $user    = trim($_POST['user']    ?? '');

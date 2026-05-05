@@ -14,7 +14,6 @@ $username = $_SESSION['username'] ?? null; // tetap null kalau belum login
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<!-- CSS EKSTERNAL YANG SAMA DENGAN ERROR 404 -->
 <link rel="stylesheet" href="/assets/css/error.css">
 </head>
 <body>

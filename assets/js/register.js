@@ -71,7 +71,6 @@ function checkMatch() {
   }
 }
 
-// ?? TAMBAHAN (CSP-SAFE, TANPA UBAH STRUKTUR)
 document.addEventListener('DOMContentLoaded', function () {
 
   // toggle password untuk semua icon
