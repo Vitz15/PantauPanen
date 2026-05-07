@@ -52,7 +52,7 @@ $total_petani = $q_petani['total'];
     </div>
 
     <h1 class="land-title">
-      Monitor<br>
+      Elshera Dahlan<br>
       <span class="land-title-accent">Hasil Panen</span>
     </h1>
 
