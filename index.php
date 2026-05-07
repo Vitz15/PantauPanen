@@ -8,7 +8,7 @@ $q_hari = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COALESCE(SUM(jumlah),0)
 $panen_hari = number_format($q_hari['total']);
 
 // Komoditas terbanyak
-$q_kom = mysqli_fetch_assoc(mysqli_query($conn, "SELECT komoditas, COUNT(*) as cnt FROM panen GROUP BY komoditas ORDER BY cnt DESC LIMIT 1"));
+$q_kom = mysqli_fetch_assoc(mysqli_query($conn, "SELECT komoditas, SUM(jumlah) as cnt FROM panen GROUP BY komoditas ORDER BY cnt DESC LIMIT 1"));
 $kom_aktif = $q_kom ? htmlspecialchars($q_kom['komoditas']) : '-';
 $kom_cnt = $q_kom ? $q_kom['cnt'] : 0;
 
@@ -107,7 +107,7 @@ $total_petani = $q_petani['total'];
   <div class="land-float-card">
     <div class="land-float-card-label">Komoditas Terbanyak</div>
     <div class="land-float-card-value"><?php echo $kom_aktif ?: '-'; ?></div>
-    <span class="land-float-card-tag tag-yellow"><?php echo $kom_cnt; ?> catatan</span>
+    <span class="land-float-card-tag tag-yellow"><?php echo $kom_cnt; ?> Hasil Panen</span>
   </div>
   <div class="land-float-card">
     <div class="land-float-card-label">Total Petani</div>
